@@ -1,4 +1,4 @@
-import Example from '../components/purchase-req-tableExample'
+import PurchaseRequisitionItemsTable from '../components/purchase-req-table'
 
 export default function FirstPost() {
     return (<div><ul>
@@ -12,6 +12,6 @@ export default function FirstPost() {
         <li>LATER Allow automatic award based on rules</li>
     </ul>
         <br />
-        <Example /></div>
+        <PurchaseRequisitionItemsTable /></div>
     );
 }
